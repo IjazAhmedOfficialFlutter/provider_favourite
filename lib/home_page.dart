@@ -35,11 +35,11 @@ class _HomePageState extends State<HomePage> {
                     provider.toggleFavorite(word);
                   },
                   icon: provider.isExist(word)
-                      ? Icon(
+                      ? const Icon(
                           Icons.favorite_border,
                           color: Colors.red,
                         )
-                      : Icon(
+                      : const Icon(
                           Icons.favorite_border,
                         ),
                 ),
